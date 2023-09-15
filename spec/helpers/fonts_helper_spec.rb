@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 # Specs in this file have access to a helper object that includes
-# the FontsHelper. For example:
+# the FontsHelper.  For example:
 #
 # describe FontsHelper do
 #   describe "string concat" do

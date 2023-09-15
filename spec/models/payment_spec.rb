@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Payment, type: :model do
   before :each do
-    @user = User.new(name: 'Tom', email: 'tom@gmail.com', password: 'asdasd')
+    @user = User.new(name: 'Tom', email: 'tom@gmail.com', password: 'asdasdv')
     @payment = Payment.new(name: 'Payment', amount: 1, user: @user)
   end
 
