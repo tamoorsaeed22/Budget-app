@@ -66,7 +66,7 @@
 
  - [Live Demo Link](https://budget-app-tamoor.onrender.com/)
 
- - [Presentation Loom Video](//)
+ - [Presentation Loom Video](https://www.loom.com/share/b21f9d9f05b4415c8c18da3fe78770cc)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
