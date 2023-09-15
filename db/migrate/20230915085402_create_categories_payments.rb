@@ -3,7 +3,7 @@ class CreateCategoriesPayments < ActiveRecord::Migration[7.0]
       create_table :categories_payments do |t|
         t.references :category, null: false, foreign_key: true
         t.references :payment, null: false, foreign_key: true
-  
+
         t.timestamps
       end
     end
