@@ -1,53 +1,126 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Budget App
+  <h1><b>Budget-app README</b></h3>
 
-> The Blog app will be a classic example of a blog website. You will create a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.
+<!-- TABLE OF CONTENTS -->
 
+# 📗 Table of Contents
 
-## Development set up
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [🎥 Video Demonstration](#video-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-Use the following steps to run this Project locally:
+<!-- PROJECT DESCRIPTION -->
 
-- Create a directory
+# 📖 Budget-App <a name="about-project"></a>
 
-- Open the terminal
-
-- Run this command:
-`git@github.com:tamoorsaeed22/Budget-app.git`
-
-- Enter in to the folder:
-`cd budget-app`
-
-
-### Setup Database 
-- Make sure that your Postgres database is installed.
--  Open the file config\database.yml
-- Modify the connection parameters to point your Postgres      Database:
-    `username: [your_user]`
-    `password: [your_password]`
-
-- If required drop existing database : `rake db:drop`
-- Create databases: `rake db:create`
-- Create db structure including tables : `rake db:migrate`
-- If required seed initial data (stored in db\seeds.rb file): `rails db:seed`
-
-
-### Run Tests
-- Install rspec: `bundle install`
-- Run all tests: `rspec`
-- Run all tests and show test documentation: `rspec spec --format documentation`
-
-### Run App
-- If required (Not for testing) run `rails server`
-- Visit http://localhost:3000/ in your browser!
+*Budget-app* is a mobile web application designed for efficient budget management. Users can register, log in, add transactions to categories, and monitor their expenses. With secure authentication, PostgreSQL database, and comprehensive testing, this app ensures seamless and secure budget tracking.
 
 
-## Built With
+## 🛠 Built With <a name="built-with"></a>
 
-- Ruby
-- Ruby on Rails
-- Postgress
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/en/documentation/">Ruby</a></li>
+    <li><a href="https://rspec.info//">Rspec</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- *1 - Create Category*
+- *2 - Create Transaction*
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+ - [Live Demo Link](https://budget-app-tamoor.onrender.com/)
+
+ - [Presentation Loom Video](https://www.loom.com/share/b21f9d9f05b4415c8c18da3fe78770cc)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+### Prerequisites
+
+In order to run this project you need:
+
+```sh
+ gem install bundler
+```
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git@github.com:tamoorsaeed22/Budget-app.git
+```
+
+### Install
+
+Install this project with:
+
+```sh
+  cd Budget-app
+  bundle install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  rails server
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  rspec spec
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Tamoor Saeed**
 
@@ -55,19 +128,46 @@ Use the following steps to run this Project locally:
 - Twitter: [@twitterhandle](https://www.linkedin.com/in/tamoor-saeed-58912a233/)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tamoorsaeed/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
 
-## 🤝 Contributing
+## 🔭 Future Features <a name="future-features"></a>
+
+- *Add API*
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/ShaliniNayan/Budget-app/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
+## ⭐ Show your support <a name="support"></a>
 
-## 📝 License
+If you like this project, please give it a star ⭐.
 
-This project is [MIT](./MIT.md) licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> The original design idea for this web page was created by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
