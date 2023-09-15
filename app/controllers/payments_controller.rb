@@ -68,7 +68,7 @@ class PaymentsController < ApplicationController
 
   private
 
-  # Use callbacks to share common setup or constraints between actions.
+  # Use callback to share common setup or constraints between actions.
   def set_payment
     @payment = Payment.find(params[:id])
   end
