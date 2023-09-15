@@ -160,7 +160,7 @@ If you like this project, please give it a star ⭐.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> The original design idea for this web page was created by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella).
+> The originl design idea for this web page was created by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
